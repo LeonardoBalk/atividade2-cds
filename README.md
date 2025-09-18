@@ -1,4 +1,5 @@
 # Atividade HTML E CSS - Página Completa
+<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/ff151396-c204-4bd0-8830-b0454bac64fd" />
 
 ## 📌 A Atividade
 Esta página foi criada como parte da atividade prática da disciplina Construção de Sites, com o objetivo de aplicar **HTML semântico** e **CSS intermediário**.  
