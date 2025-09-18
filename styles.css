@@ -26,6 +26,9 @@ nav a {
     text-decoration: none;
 }
 main {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* conteúdo maior à esquerda, aside/form à direita */
+    gap: 20px;
     padding: 20px;
 }
 article {
@@ -57,5 +60,10 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}
+nav a:hover {
+    color: #ffcc00; /* muda a cor ao passar o mouse */
+    text-decoration: underline; /* sublinha o link */
+    transition: all 0.3s ease; /* animação suave */
 }
 
