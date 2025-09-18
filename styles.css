@@ -68,3 +68,14 @@ article, form {
     border-radius: 8px; /* cantos arredondados */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra suave */
 }
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
