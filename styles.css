@@ -1,11 +1,9 @@
-/* DEFINE A COR DO FUNDO DA PAGINA E AFONTE PADRÃO */
 body {
     margin: 0;
     padding: 0;
     background-color: #fafafa; /* fundo mais claro */
     font-family: 'Verdana', serif; /* fonte nova */
 }
-/* CABEÇALHO, FUNDO AZUL E TEXTO BRANCO */
 header {
      background-color: #009688; /* cabeçalho verde */
     color: white;
@@ -66,4 +64,7 @@ nav a:hover {
     text-decoration: underline; /* sublinha o link */
     transition: all 0.3s ease; /* animação suave */
 }
-
+article, form {
+    border-radius: 8px; /* cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra suave */
+}
