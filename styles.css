@@ -1,13 +1,13 @@
 /* DEFINE A COR DO FUNDO DA PAGINA E AFONTE PADRÃO */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #fafafa; /* fundo mais claro */
+    font-family: 'Verdana', serif; /* fonte nova */
 }
 /* CABEÇALHO, FUNDO AZUL E TEXTO BRANCO */
 header {
-    background-color: #3366cc;
+     background-color: #009688; /* cabeçalho verde */
     color: white;
     padding: 20px;
     text-align: center; /* CENTRALIZA O TEXTO */
@@ -48,7 +48,7 @@ form {
     border: 1px solid #ddd;
 }
 button {
-    background-color: #3366cc;
+    background-color: #31db78; /* botão verde claro */
     color: white;
     border: none;
     padding: 8px 12px;
