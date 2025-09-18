@@ -1,0 +1,61 @@
+/* DEFINE A COR DO FUNDO DA PAGINA E AFONTE PADRÃO */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* CABEÇALHO, FUNDO AZUL E TEXTO BRANCO */
+header {
+    background-color: #3366cc;
+    color: white;
+    padding: 20px;
+    text-align: center; /* CENTRALIZA O TEXTO */
+}
+nav ul {
+    list-style: none; /* tira fora as bolinash da lista */
+    padding: 0;
+    margin: 10px 0 0 0; /* tira as marges e ajsuta em cima */
+}
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+article {
+    background-color: white; /* cor de fundo */
+    border: 1px solid #ccc; /* adicona uma borda */
+    padding: 15px; /* coloca uma margem em todos os lados */
+    margin-bottom: 20px; /* adiciona uma margem em baixo */
+}
+aside {
+    background-color: #e6e6e6;
+    padding: 15px;
+    margin-top: 20px;/* adiciona uma margem no topo*/
+}
+form {
+    background-color: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+button {
+    background-color: #3366cc;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
